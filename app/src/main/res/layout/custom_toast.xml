@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/custom_toast_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/graphic_logo"/>
+
+
+        <TextView
+            android:id="@+id/custom_toast_message"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="NO INTERNET CONNECTION"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"/>
+    </LinearLayout>
+

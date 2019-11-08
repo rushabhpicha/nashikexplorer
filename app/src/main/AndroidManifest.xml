@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nashik.myNashik.dreams">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nashik Explorer"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".splash" />
+        <activity android:name=".autofare" />
+        <activity android:name=".picnicplaces" />
+        <activity android:name=".Nearest_Police_Station" />
+        <activity android:name=".Nasikar" />
+        <activity android:name=".emergency" />
+        <activity android:name=".bus" />
+        <activity android:name=".bus_timings" />
+        <activity android:name="com.nashik.myNashik.emergency.ambulance" />
+        <activity android:name="com.nashik.myNashik.emergency.police" />
+        <activity android:name="com.nashik.myNashik.emergency.mseb" />
+        <activity android:name="com.nashik.myNashik.emergency.fire_brigade" />
+        <activity android:name="com.nashik.myNashik.emergency.bloodbank" />
+        <activity android:name="com.nashik.myNashik.emergency.government" />
+        <activity android:name=".Description_of_picnicplaces" />
+        <activity android:name=".news" />
+        <activity android:name=".ngo" />
+        <activity android:name=".school" />
+        <activity android:name=".informationn_buses" />
+        <activity android:name=".city_bus" />
+        <activity android:name=".information_citybus" />
+        <activity android:name=".movie" />
+        <activity android:name=".foodies" />
+        <activity android:name=".tuition" />
+        <activity android:name=".private_transport" />
+        <activity android:name=".information_policestation" />
+        <activity android:name=".college" />
+        <activity android:name=".contact_bus" />
+        <!-- <activity android:name=".splash"></activity> -->
+        <activity android:name=".traffic_violation_fines" />
+        <activity android:name=".termsandcondition" />
+        <activity android:name=".atm" />
+        <activity android:name=".weather" />
+        <activity android:name=".map_foodies" />
+        <activity android:name="com.nashik.myNashik.Express.ListofExpress"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.nashik.myNashik.Express.Express_schedule" />
+        <!-- <service android:name=".MyFirebaseMessagingService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- <service android:name=".FirebaseIDService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.nashik.myNashik.Express.Express_main" />
+        <activity android:name="com.nashik.myNashik.Express.Express_Station_List"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.rushabh.nasikapp.ahmedabadexplorer.News_Main"></activity>
+    </application>
+
+</manifest>

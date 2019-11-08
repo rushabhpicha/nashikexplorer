@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+            android:text="Outstation Transportation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/outstation_transportation"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/express"
+                android:id="@+id/express"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bus"
+                android:id="@+id/bus"
+                android:paddingLeft="5dp"
+                style="@style/DefaultButton"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/private_transport"
+                android:id="@+id/private_transport"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Local Transportation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/local_transportation"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:paddingRight="5dp"
+            android:layout_height="108dp"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/city_bus"
+                android:id="@+id/city_bus"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/auto"
+                android:id="@+id/auto"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/traffic_violation_fines"
+                android:id="@+id/trafic_violation_fines"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="News and Emergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_and_emergency"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            style="@style/DefaultButton"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:paddingRight="5dp"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/news"
+                android:id="@+id/news"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/emergency"
+                android:id="@+id/emergency"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/nearestpolicestation"
+                android:id="@+id/nearestpolicestation"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:text="Entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/entertainment"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            style="@style/DefaultButton"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/picnic"
+                android:id="@+id/picnic"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/movie"
+                android:id="@+id/movie"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/foodies"
+                android:id="@+id/foodies"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="Educational"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/educational"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/college"
+                android:id="@+id/college"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tuition"
+                android:id="@+id/tuition"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/school"
+                android:id="@+id/school"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ngo"
+                android:id="@+id/ngo"
+                style="@style/DefaultButton"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:text="ATM and Weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bank_atm_weather"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            style="@style/DefaultButton"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/atm"
+                android:id="@+id/atm"
+                style="@style/DefaultButton"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/weather"
+                android:id="@+id/weather"
+                style="@style/DefaultButton"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

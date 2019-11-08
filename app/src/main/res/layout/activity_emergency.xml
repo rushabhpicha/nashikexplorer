@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_picnicplaces"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nashik.myNashik.dreams.picnicplaces">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:text="Emergency Contacts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView_picnic"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#0000ff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:paddingBottom="7dp">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ambulance"
+            android:id="@+id/ambulance"
+            style="@style/DefaultButton"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/blood_bank"
+            android:id="@+id/bloodbank"
+            android:paddingLeft="10dp"
+            style="@style/DefaultButton"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:paddingBottom="7dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/police"
+            android:id="@+id/police"
+            android:paddingLeft="20dp"
+            style="@style/DefaultButton"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mseb"
+            android:id="@+id/mseb"
+            android:paddingLeft="10dp"
+            style="@style/DefaultButton"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:paddingBottom="7dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fire_brigade"
+            android:id="@+id/firebrigade"
+            android:paddingLeft="20dp"
+            style="@style/DefaultButton"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/government"
+            android:id="@+id/government"
+            android:paddingLeft="10dp"
+            style="@style/DefaultButton"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

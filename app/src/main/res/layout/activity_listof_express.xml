@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rushabh.nasikapp.ahmedabadexplorer.Express.ListofExpress">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:bottomRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/station"
+        android:hint="Enter train name"
+        android:background="#00000000"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:bottomRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textview"
+        android:background="@color/gray_dark"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textColor="#ffffff"/>
+
+    <ListView
+        android:id="@+id/list_express"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+    </ListView>
+
+</LinearLayout>

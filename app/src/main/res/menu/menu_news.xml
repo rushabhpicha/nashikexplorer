@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/India"
+        android:orderInCategory="100"
+        android:title="India News"/>
+    <item
+        android:id="@+id/world"
+        android:title="World News"/>
+    <item
+        android:id="@+id/sports"
+        android:orderInCategory="100"
+        android:title="Sports News"/>
+    <item
+        android:id="@+id/bollywood"
+        android:title="Bollywood News"/>
+    <item
+        android:id="@+id/science"
+        android:title="Science and Technology"/>
+</menu>
